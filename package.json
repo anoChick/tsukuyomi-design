@@ -1,0 +1,30 @@
+{
+  "name": "tsukuyomi-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://anoChick@github.com/anoChick/tsukuyomi-design.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anoChick/tsukuyomi-design/issues"
+  },
+  "homepage": "https://github.com/anoChick/tsukuyomi-design#readme",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^2.21.0",
+    "@kadira/storybook-addon-comments": "^1.9.1",
+    "@kadira/storybook-database-cloud": "^2.3.2"
+  }
+}
